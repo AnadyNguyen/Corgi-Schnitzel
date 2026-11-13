@@ -7,8 +7,8 @@
 In Terminal, navigate to the `Corgi-Schnitzel` folder, then run:
 
 ```bash
-git fetch (checks if you are up to date)
-git pull (makes your remote up to date)
+git fetch 
+git pull
 git checkout -b yourname-work/feature
 ```
 
