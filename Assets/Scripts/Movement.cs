@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 public class SnakeMovement : MonoBehaviour {
-    public float moveSpeed = 0.15f;
+    public float moveSpeed = GameParameters.SnakeMoveSpeed;
     public Transform bodyPrefab;
     private Vector2 direction = Vector2.right;
     private Vector2 nextDirection = Vector2.right;
