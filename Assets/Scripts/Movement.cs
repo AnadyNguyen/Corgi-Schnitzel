@@ -1,8 +1,12 @@
 
 using System.Collections.Generic;
 using UnityEngine;
-public class SnakeMovement : MonoBehaviour {
+
+public class SnakeMovement : MonoBehaviour
+{
     public float moveSpeed = GameParameters.SnakeMoveSpeed;
+    public Grid grid;
+
     public Transform bodyPrefab;
     public Transform startingBody;
     public Transform tail;
